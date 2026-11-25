@@ -1,0 +1,35 @@
+local MCM_ID = "gamma_dialogue_voice"
+local OPTION_ID = "language"
+local LANGUAGE_KEY = MCM_ID .. "/" .. OPTION_ID
+local PACK_CONFIG = "gamma_dialogue_voice_pack.ltx"
+
+local function log_voice_language()
+	local selected = axr_main.config:r_value("mcm", LANGUAGE_KEY, 0, "ru")
+	local mounted = "unknown"
+	if getFS():exist("$game_config$", PACK_CONFIG) then
+		mounted = ini_file_ex(PACK_CONFIG):r_string_ex("dialogue_voice", "language", "unknown")
+	end
+	printf("[dialogue_voice] selected=%s mounted=%s", selected, mounted)
+end
+
+function on_game_start()
+	RegisterScriptCallback("on_option_change", log_voice_language)
+	log_voice_language()
+end
+
+function on_mcm_load()
+	log_voice_language()
+	return {
+		id = MCM_ID,
+		sh = true,
+		gr = {
+			{ id = "restart", type = "desc", text = "ui_mcm_gamma_dialogue_voice_restart" },
+			{ id = "volume", type = "track", val = 2, def = 100, min = 0, max = 200, step = 5 },
+			{ id = OPTION_ID, type = "list", val = 0, def = "ru", content = {
+				{ "ru", "gamma_dialogue_voice_ru" },
+				{ "uk", "gamma_dialogue_voice_uk" },
+				{ "en", "gamma_dialogue_voice_en" },
+			} },
+		},
+	}
+end

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="ui_mcm_menu_gamma_dialogue_voice">
+		<text>Dialogue voice</text>
+	</string>
+	<string id="ui_mcm_gamma_dialogue_voice_language">
+		<text>Dialogue voice language</text>
+	</string>
+	<string id="ui_mcm_gamma_dialogue_voice_restart">
+		<text>Apply the voice settings, close GAMMA and Mod Organizer 2, and relaunch from the desktop shortcut.</text>
+	</string>
+	<string id="ui_mcm_lst_gamma_dialogue_voice_ru">
+		<text>Russian (Русский)</text>
+	</string>
+	<string id="ui_mcm_lst_gamma_dialogue_voice_uk">
+		<text>Ukrainian (Українська)</text>
+	</string>
+	<string id="ui_mcm_lst_gamma_dialogue_voice_en">
+		<text>English (English)</text>
+	</string>
+	<string id="ui_mcm_gamma_dialogue_voice_volume">
+		<text>Dialogue voice volume (%)</text>
+	</string>
+	<string id="ui_mcm_gamma_dialogue_voice_volume_desc">
+		<text>0% mutes the installed dialogue voice packs. 100% is the default. Relaunch GAMMA to apply.</text>
+	</string>
+</string_table>

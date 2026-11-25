@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="ui_mcm_menu_gamma_dialogue_voice">
+		<text>Озвучка диалогов</text>
+	</string>
+	<string id="ui_mcm_gamma_dialogue_voice_language">
+		<text>Язык озвучки диалогов</text>
+	</string>
+	<string id="ui_mcm_gamma_dialogue_voice_restart">
+		<text>Примените настройки озвучки, закройте GAMMA и Mod Organizer 2 и запустите игру через ярлык на рабочем столе.</text>
+	</string>
+	<string id="ui_mcm_lst_gamma_dialogue_voice_ru">
+		<text>Russian (Русский)</text>
+	</string>
+	<string id="ui_mcm_lst_gamma_dialogue_voice_uk">
+		<text>Ukrainian (Українська)</text>
+	</string>
+	<string id="ui_mcm_lst_gamma_dialogue_voice_en">
+		<text>English (English)</text>
+	</string>
+	<string id="ui_mcm_gamma_dialogue_voice_volume">
+		<text>Громкость озвучки диалогов (%)</text>
+	</string>
+	<string id="ui_mcm_gamma_dialogue_voice_volume_desc">
+		<text>0% отключает озвучку из установленных пакетов. 100% — значение по умолчанию. Перезапустите GAMMA.</text>
+	</string>
+</string_table>

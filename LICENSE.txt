@@ -1,0 +1,17 @@
+G.A.M.M.A. Dialogue Voice-over 1.0.0
+Copyright (c) 2026 the G.A.M.M.A. Dialogue Voice-over authors.
+
+This is a free, non-commercial fan project. You may redistribute the complete,
+unmodified package free of charge with attribution. You may not sell it, put it
+behind a paywall, or include it in a paid product.
+
+The package contains synthetic speech generated with:
+- Silero Models (CC BY-NC-SA 4.0)
+- Kokoro-82M (Apache-2.0)
+- Supertonic 3 (OpenRAIL-M)
+- Helsinki-NLP OPUS-MT (CC BY 4.0)
+and uses the Ukrainian GAMMA localization by HalavicH.
+
+S.T.A.L.K.E.R. characters, dialogue and game content belong to GSC Game World.
+GAMMA and Anomaly belong to their respective authors. This package contains no
+game code; you need your own legal copy of the game.
