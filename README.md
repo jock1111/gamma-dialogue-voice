@@ -8,24 +8,24 @@ Three separate packs, 5,555 voice clips each, plus an MCM page and a launcher th
 
 ## Download and rejoin
 
-GitHub limits a release asset to 2 GiB, so the 3.6 GB package is attached as two parts. Download both into the same folder, then rejoin them:
+GitHub limits a release asset to 2 GiB, so the 3.6 GB package is attached as four parts. Download all four into the same folder, then rejoin them:
 
 **Windows (cmd):**
 
 ```bat
-copy /b GAMMA-Dialogue-Voice-1.0.0.zip.part1 + GAMMA-Dialogue-Voice-1.0.0.zip.part2 GAMMA-Dialogue-Voice-1.0.0.zip
+copy /b GAMMA-Dialogue-Voice-1.0.0.zip.part1 + GAMMA-Dialogue-Voice-1.0.0.zip.part2 + GAMMA-Dialogue-Voice-1.0.0.zip.part3 + GAMMA-Dialogue-Voice-1.0.0.zip.part4 GAMMA-Dialogue-Voice-1.0.0.zip
 ```
 
 **PowerShell:**
 
 ```powershell
-cmd /c 'copy /b "GAMMA-Dialogue-Voice-1.0.0.zip.part1" + "GAMMA-Dialogue-Voice-1.0.0.zip.part2" "GAMMA-Dialogue-Voice-1.0.0.zip"'
+cmd /c 'copy /b "GAMMA-Dialogue-Voice-1.0.0.zip.part1" + "GAMMA-Dialogue-Voice-1.0.0.zip.part2" + "GAMMA-Dialogue-Voice-1.0.0.zip.part3" + "GAMMA-Dialogue-Voice-1.0.0.zip.part4" "GAMMA-Dialogue-Voice-1.0.0.zip"'
 ```
 
 **Linux / macOS:**
 
 ```bash
-cat GAMMA-Dialogue-Voice-1.0.0.zip.part1 GAMMA-Dialogue-Voice-1.0.0.zip.part2 > GAMMA-Dialogue-Voice-1.0.0.zip
+cat GAMMA-Dialogue-Voice-1.0.0.zip.part1 GAMMA-Dialogue-Voice-1.0.0.zip.part2 GAMMA-Dialogue-Voice-1.0.0.zip.part3 GAMMA-Dialogue-Voice-1.0.0.zip.part4 > GAMMA-Dialogue-Voice-1.0.0.zip
 ```
 
 Verify the result before extracting:

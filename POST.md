@@ -1,6 +1,6 @@
 # G.A.M.M.A. Dialogue Voice-over 1.0.0
 
-**Download:** [v1.0.0 release](https://github.com/jock1111/gamma-dialogue-voice/releases/tag/v1.0.0) - two parts, rejoin commands below.
+**Download:** [v1.0.0 release](https://github.com/jock1111/gamma-dialogue-voice/releases/tag/v1.0.0) - four parts, rejoin commands below.
 **Size:** about 3.6 GB (`GAMMA-Dialogue-Voice-1.0.0.zip`, 3,632,349,338 bytes)
 **SHA-256:** `c96fbfe6b029cdf2913f96c88e5da5b3321fe723326bf111cd6f556ca166ae8a`
 
@@ -8,18 +8,18 @@ GAMMA's conversations are text-only by default. This adds spoken dialogue for th
 
 ## Download and rejoin
 
-GitHub limits each release asset to 2 GiB, so the package is split into two parts. Download both, put them in one folder, then:
+GitHub limits each release asset to 2 GiB, so the package is split into four parts. Download all four, put them in one folder, then:
 
 **Windows (cmd):**
 
 ```bat
-copy /b GAMMA-Dialogue-Voice-1.0.0.zip.part1 + GAMMA-Dialogue-Voice-1.0.0.zip.part2 GAMMA-Dialogue-Voice-1.0.0.zip
+copy /b GAMMA-Dialogue-Voice-1.0.0.zip.part1 + GAMMA-Dialogue-Voice-1.0.0.zip.part2 + GAMMA-Dialogue-Voice-1.0.0.zip.part3 + GAMMA-Dialogue-Voice-1.0.0.zip.part4 GAMMA-Dialogue-Voice-1.0.0.zip
 ```
 
 **Linux / macOS:**
 
 ```bash
-cat GAMMA-Dialogue-Voice-1.0.0.zip.part1 GAMMA-Dialogue-Voice-1.0.0.zip.part2 > GAMMA-Dialogue-Voice-1.0.0.zip
+cat GAMMA-Dialogue-Voice-1.0.0.zip.part1 GAMMA-Dialogue-Voice-1.0.0.zip.part2 GAMMA-Dialogue-Voice-1.0.0.zip.part3 GAMMA-Dialogue-Voice-1.0.0.zip.part4 > GAMMA-Dialogue-Voice-1.0.0.zip
 ```
 
 Check the SHA-256 before extracting.
